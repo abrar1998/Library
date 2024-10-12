@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;                /* Use flexbox for layout */
+  flex-direction: column;       /* Align children in a column */
+}
+
+.main-content {
+  flex: 1;                     /* Allow main content to grow and fill the space */
+}
+
+app-footer {
+  background-color: #f8f9fa;   /* Set footer background */
+  padding: 20px 0;             /* Add padding to footer */
+  text-align: center;           /* Center the footer text */
+}

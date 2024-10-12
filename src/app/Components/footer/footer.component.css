@@ -1,0 +1,40 @@
+.footer {
+    background-color: #f8f9fa;
+  }
+  
+  .footer h5 {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .footer p {
+    color: #343a40;
+  }
+  
+  .footer a {
+    color: #343a40;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .social-media a {
+    font-size: 1.5rem;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #0056b3;
+  }
+  .footer {
+    position: relative; /* Set position relative to the content */
+    bottom: 0;         /* Stay at the bottom of the page */
+    left: 0;           /* Align it to the left */
+    width: 100%;  
+    border-top: 1px solid blue;     /* Make it span full width */
+}
+  

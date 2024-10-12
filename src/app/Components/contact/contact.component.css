@@ -1,0 +1,31 @@
+.contact-us {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.contact-us h2 {
+    color: #007bff; /* Primary color for the heading */
+}
+
+.contact-us .form-control {
+    border-radius: 0.5rem; /* Rounded corners for input fields */
+}
+
+.contact-us .social-icons {
+    font-size: 1.5rem; /* Increase icon size */
+}
+
+.contact-us .social-icons a {
+    color: #007bff; /* Primary color for icons */
+    transition: color 0.3s;
+}
+
+.contact-us .social-icons a:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .contact-us {
+        padding: 30px 15px; /* Adjust padding for smaller screens */
+    }
+}
