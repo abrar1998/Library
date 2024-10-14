@@ -1,8 +1,18 @@
 <div class="gallery-container">
-    <div class="gallery-grid">
-      <div *ngFor="let image of images" class="gallery-item">
-        <img [src]="image.src" [alt]="image.alt" class="gallery-image">
-      </div>
+  <!-- Video Section -->
+  <div class="video-section text-center mb-4">
+    <h2 class="gallery-heading fw-bold text-uppercase">Discover the Heart of Learning at Vision Library</h2>
+    <p class="gallery-subheading text-muted">Explore our vibrant space designed for focus, growth, and knowledge.</p>
+    <video class="gallery-video" controls>
+      <source src="/Libraryvideo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Image Gallery Section -->
+  <div class="gallery-grid">
+    <div *ngFor="let image of images" class="gallery-item">
+      <img [src]="image.src" [alt]="image.alt" class="gallery-image">
     </div>
   </div>
-  
+</div>
