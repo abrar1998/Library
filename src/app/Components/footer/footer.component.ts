@@ -10,4 +10,5 @@ import { RouterLink } from '@angular/router';
 })
 export class FooterComponent {
 
+  email:string="thevisionlibrarychandilora@gmail.com";
 }
